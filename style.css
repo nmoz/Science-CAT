@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 85px;
+  display: block;
+  position: fixed;
+  z-index: 10;
+}
+
+.inner-header {
+  width: 1200px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo h1 {
+  color: black;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.logo a {
+  padding-top: 10px;
+}
+
+.logo h1 span {
+  font-weight: 800;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  height: 100%;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.home video {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .content h1 {
+  color: black;
+  font-family: "Playfair Display SC", serif;
+  font-size: 55px;
+  position: absolute;
+  top: 300px;
+  background-color: #fff;
+  opacity: 0.7;
+  padding: 15px 30px 15px 30px;
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro p {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 100%;
+  position: absolute;
+  right: 35%;
+}
+
+.intro .img1 {
+  position: absolute;
+  right: 12%;
+  top: 130px;
+}
+
+.intro .img2 {
+  position: absolute;
+  top: 400px;
+  left: 140px;
+}
+
+.intro .h3 {
+  position: absolute;
+}
+
+.intro .title1 h1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.intro .title1 h1:before {
+  content: "";
+  display: block;
+  width: 460px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 80%;
+}
+
+.intro .title1 h1:after {
+  content: " ";
+  display: block;
+  width: 460px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 80%;
+}
+
+.species {
+  top: 800px;
+  position: relative;
+}
+
+.species .title2 h1 {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.species .title2 h1:before {
+  content: "";
+  display: block;
+  width: 630px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.species .title2 h1:after {
+  content: " ";
+  display: block;
+  width: 630px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.species .table {
+  justify-content: center;
+  position: absolute;
+  top: 130px;
+  right: 0%;
+}
+
+.species .grid {
+  display: flex;
+  position: absolute;
+  padding-left: 50px;
+  z-index: 1;
+  max-width: 800px;
+  top: 170px;
+  flex-wrap: wrap;
+}
+
+.species .grid img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.climate {
+  top: 1500px;
+  position: relative;
+  background-color: #ddd;
+  padding-bottom: 1200px;
+  padding-top: 40px;
+  border-top: 5px dotted #000;
+}
+
+.climate .title3 h1 {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.climate .title3 h1:before {
+  content: "";
+  display: block;
+  width: 620px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.climate .title3 h1:after {
+  content: " ";
+  display: block;
+  width: 620px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.climate h4 {
+  position: absolute;
+  top: 130px;
+  font-family: "Noto Serif", serif;
+  font-size: 35px;
+}
+
+.climate p {
+  top: 200px;
+  position: absolute;
+  right: 40%;
+  font-size: 20px;
+}
+
+.climate img {
+  width: 480px;
+  position: absolute;
+  right: 55px;
+  border-radius: 50px;
+}
+
+.why {
+  top: 1550px;
+  position: relative;
+  padding-bottom: 900px;
+  padding-top: 50px;
+  margin-top: -50px;
+  border-bottom: 5px dotted #000;
+}
+
+.why .title4 h1 {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.why .title4 h1:before {
+  content: "";
+  display: block;
+  width: 460px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.why .title4 h1:after {
+  content: " ";
+  display: block;
+  width: 460px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.why .special {
+  width: 1000px;
+  position: absolute;
+  top: 170px;
+  justify-content: center;
+  text-align: center;
+  left: 15%;
+  background-color: #bcdad2;
+}
+
+.why .special h5 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  padding: 30px;
+}
+
+.why .special img {
+  width: 600px;
+  padding-bottom: 40px;
+}
+
+.why .left-bar {
+  position: absolute;
+  top: 170px;
+  height: 778px;
+  width: 20px;
+  left: 10%;
+  background-color: #bcdad2;
+}
+
+.why .right-bar {
+  position: absolute;
+  top: 170px;
+  height: 778px;
+  width: 20px;
+  right: 9%;
+  background-color: #bcdad2;
+}
+
+.why .tape img {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 130px;
+  right: 150px;
+}
+
+.factors {
+  top: 1620px;
+  position: relative;
+  padding-bottom: 1320px;
+  padding-top: 40px;
+  margin-top: -70px;
+  border-bottom: 2px solid #000;
+  background-color: #d2f0ff;
+}
+
+.factors .title5 h1 {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.factors .title5 h1:before {
+  content: "";
+  display: block;
+  width: 530px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+
+.factors .title5 h1:after {
+  content: " ";
+  display: block;
+  width: 530px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.factors img {
+  width: 100%;
+  height: 170px;
+  position: absolute;
+  top: 650px;
+}
+
+.factors h4 {
+  position: absolute;
+  top: 130px;
+  font-family: "Noto Serif", serif;
+  font-size: 35px;
+}
+
+.factors .left,
+.right {
+  padding-left: 0px;
+}
+
+.factors p {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 200px;
+  right: 55%;
+}
+
+.factors .right h4 {
+  position: absolute;
+  top: 900px;
+}
+
+.factors .right p {
+  top: 970px;
+  right: 45%;
+}
+
+.footer {
+  position: relative;
+  top: 1500px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #c4d7d1;
+  margin-top: -30px;
+  padding-top: 20px;
+  border-top: 2px solid #000;
+}
+
+.food-web {
+  position: relative;
+  top: 1500px;
+  height: 900px;
+}
+
+.food-web img {
+  width: 1000px;
+  margin-top: 80px;
+}
